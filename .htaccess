@@ -1,0 +1,10 @@
+# areApp/.htaccess
+RewriteEngine On
+RewriteBase /areApp/
+
+# Si el recurso existe, servirlo directamente
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirigir todo lo demás a index.php?url=
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]

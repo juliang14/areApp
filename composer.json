@@ -1,0 +1,12 @@
+{
+    "name": "yourname/arepa-sales-frontend",
+    "description": "Frontend MVC consuming REST APIs for Arepa Sales",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "": ["controllers/", "utils/"]
+        }
+    }
+}
