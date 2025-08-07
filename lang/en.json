@@ -1,0 +1,57 @@
+{
+  "site": {
+    "name": "Arepa Sales",
+    "all_rights_reserved": "All rights reserved."
+  },
+  "links": {
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service"
+  },
+  "menu": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact",
+    "cart": "Cart",
+    "login": "Login",
+    "register": "Register",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "form": {
+    "label_email": "Email",
+    "label_password": "Password",
+    "button_login": "Log In"
+  },
+  "home": {
+    "slider1": {
+      "title": "Fresh Arepas",
+      "text": "Handmade fresh every day."
+    },
+    "slider2": {
+      "title": "Stuffed Arepas",
+      "text": "Choose your favorite filling."
+    },
+    "slider3": {
+      "title": "Daily Specials",
+      "text": "Don't miss our limited offers!"
+    },
+    "slider_control_prev": "Previous",
+    "slider_control_next": "Next",
+    "section_featured": "Featured Arepas",
+    "button_view": "View Details",
+    "section_reviews": "Customer Reviews",
+    "review1": {
+      "text": "Best arepas in Bogotá!",
+      "author": "María G."
+    },
+    "review2": {
+      "text": "Delicious and fast service.",
+      "author": "Carlos P."
+    },
+    "review3": {
+      "text": "Reina Pepiada is amazing!",
+      "author": "Ana M."
+    }
+  }
+}

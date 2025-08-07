@@ -1,0 +1,57 @@
+{
+  "site": {
+    "name": "Arepa Sales",
+    "all_rights_reserved": "Todos los derechos reservados."
+  },
+  "links": {
+    "privacy_policy": "Política de Privacidad",
+    "terms_of_service": "Términos del Servicio"
+  },
+  "menu": {
+    "home": "Inicio",
+    "products": "Productos",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "cart": "Carrito",
+    "login": "Iniciar sesión",
+    "register": "Registrarse",
+    "profile": "Perfil",
+    "logout": "Cerrar sesión"
+  },
+  "form": {
+    "label_email": "Correo",
+    "label_password": "Contraseña",
+    "button_login": "Ingresar"
+  },
+  "home": {
+    "slider1": {
+      "title": "Arepas Frescas",
+      "text": "Hechas a mano todos los días."
+    },
+    "slider2": {
+      "title": "Arepas Rellenas",
+      "text": "Elige tu relleno favorito."
+    },
+    "slider3": {
+      "title": "Promociones del Día",
+      "text": "No te pierdas nuestras ofertas limitadas."
+    },
+    "slider_control_prev": "Anterior",
+    "slider_control_next": "Siguiente",
+    "section_featured": "Arepas Destacadas",
+    "button_view": "Ver Detalle",
+    "section_reviews": "Reseñas de Clientes",
+    "review1": {
+      "text": "¡Las mejores arepas de Bogotá!",
+      "author": "María G."
+    },
+    "review2": {
+      "text": "Servicio rápido y muy rico.",
+      "author": "Carlos P."
+    },
+    "review3": {
+      "text": "¡Reina Pepiada espectacular!",
+      "author": "Ana M."
+    }
+  }
+}
