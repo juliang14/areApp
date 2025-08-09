@@ -53,5 +53,11 @@
       "text": "¡Reina Pepiada espectacular!",
       "author": "Ana M."
     }
+  },
+    "products": {
+    "title": "Nuestros Productos",
+    "price": "Precio",
+    "category": "Categoría",
+    "buy": "Comprar"
   }
 }

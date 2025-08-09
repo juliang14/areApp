@@ -32,7 +32,7 @@ if (file_exists($langFile)) {
     </button>
     <div class="collapse navbar-collapse" id="mainNav">
       <ul class="navbar-nav me-auto">
-        <li class="nav-item"><a class="nav-link" href="index.php?url=home"><?= htmlspecialchars($lang['menu']['home'] ?? 'Home') ?></a></li>
+        <li class="nav-item"><a class="nav-link" href="index.php"><?= htmlspecialchars($lang['menu']['home'] ?? 'Home') ?></a></li>
         <li class="nav-item"><a class="nav-link" href="index.php?url=products"><?= htmlspecialchars($lang['menu']['products'] ?? 'Products') ?></a></li>
         <li class="nav-item"><a class="nav-link" href="index.php?url=about"><?= htmlspecialchars($lang['menu']['about'] ?? 'About Us') ?></a></li>
         <li class="nav-item"><a class="nav-link" href="index.php?url=contact"><?= htmlspecialchars($lang['menu']['contact'] ?? 'Contact') ?></a></li>
