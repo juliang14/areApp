@@ -22,11 +22,12 @@ if (file_exists($langFile)) {
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Bootstrap Icons -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="public/css/products.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
-    <a class="navbar-brand" href="index.php"><?= htmlspecialchars($lang['menu']['home'] ?? 'Home') ?></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -50,7 +51,7 @@ if (file_exists($langFile)) {
         <?php if ($user): ?>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-              <?= htmlspecialchars($user['first_name']) ?>
+              <?= htmlspecialchars($user['name']) ?>
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
               <li><a class="dropdown-item" href="index.php?url=profile"><?= htmlspecialchars($lang['menu']['profile'] ?? 'Profile') ?></a></li>
