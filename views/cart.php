@@ -119,7 +119,7 @@ $total = 0;
     window.cartTotal = <?= json_encode($total) ?>;
     window.apiToken = <?= json_encode($_SESSION['token'] ?? '') ?>;
     window.userId = <?= json_encode($_SESSION['user']['id'] ?? '') ?>;
-    window.dataS = $_ENV['PAYPAL_CLIENT_ID'] ? '<?= $_ENV['PAYPAL_CLIENT_ID'] ?>' : '';
+    window.dataS = <?= json_encode($_ENV['ENCRYPT_SECRET']) ?>;
 </script>
 <script src="public/js/cartCheckout.js"></script>
 
