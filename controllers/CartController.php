@@ -24,22 +24,20 @@ class CartController
 
             switch ($action) {
                 case 'add':
-                    // Espera: product_id, name, price (entero)
-                    if ($productId !== null) {
-                        $name  = trim($_POST['name']  ?? '');
-                        // Cast a entero (en BD viene 3000, 6000, etc.)
-                        $price = (int)($_POST['price'] ?? 0);
+                    $name  = trim($_POST['name']  ?? '');
+                    $price = (int)($_POST['price'] ?? 0);
+                    $image = trim($_POST['image'] ?? '/assets/img/no-image.png');
 
-                        if ($name !== '' && $price >= 0) {
-                            if (!isset($_SESSION['cart'][$productId])) {
-                                $_SESSION['cart'][$productId] = [
-                                    'name'     => $name,
-                                    'price'    => $price,
-                                    'quantity' => 1,
-                                ];
-                            } else {
-                                $_SESSION['cart'][$productId]['quantity']++;
-                            }
+                    if ($name !== '' && $price >= 0) {
+                        if (!isset($_SESSION['cart'][$productId])) {
+                            $_SESSION['cart'][$productId] = [
+                                'name'     => $name,
+                                'price'    => $price,
+                                'quantity' => 1,
+                                'image'    => $image,   // 👈 se guarda imagen
+                            ];
+                        } else {
+                            $_SESSION['cart'][$productId]['quantity']++;
                         }
                     }
                     break;

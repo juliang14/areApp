@@ -1,9 +1,12 @@
 <?php
+use Dotenv\Dotenv;
+
 // areApp/index.php
 
 // 1) Iniciar sesión y cargar autoload de Composer
 session_start();
 require_once __DIR__ . '/vendor/autoload.php';
+Dotenv::createImmutable(__DIR__)->load();
 
 // 2) Gestión de idioma
 if (isset($_GET['lang']) && in_array($_GET['lang'], ['es', 'en'])) {

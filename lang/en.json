@@ -59,5 +59,13 @@
     "price": "Price",
     "category": "Category",
     "buy": "Buy Now"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "content": "At Arepa Sales we value and respect your privacy. The personal information you provide us, such as your name, email address and phone number, will only be used to manage your orders, improve our service, and keep you informed about our promotions and news. We will never share your information with third parties without your prior consent, unless required by law. We implement security measures to protect your data from unauthorized access. By using our website, you agree to this privacy policy."
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "content": "By accessing and using the Arepa Sales website, you agree to the following terms and conditions: 1) The content of this site is for your personal and non-commercial use only. 2) All prices and promotions are subject to change without prior notice. 3) We reserve the right to cancel orders in case of errors in the published information or product availability. 4) Improper use of the site may result in restricted access. 5) Any dispute will be resolved in accordance with the laws of our country. By continuing to browse our website, you fully accept these terms and conditions."
   }
 }

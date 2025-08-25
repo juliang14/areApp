@@ -54,10 +54,19 @@
       "author": "Ana M."
     }
   },
-    "products": {
+  "products": {
     "title": "Nuestros Productos",
     "price": "Precio",
     "category": "Categoría",
     "buy": "Comprar"
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "content": "En Arepa Sales valoramos y respetamos tu privacidad. La información personal que nos proporcionas, como nombre, correo electrónico y número de teléfono, será utilizada únicamente para gestionar tus pedidos, mejorar nuestro servicio y mantenerte informado sobre nuestras promociones y novedades. Nunca compartiremos tu información con terceros sin tu consentimiento previo, salvo que la ley lo requiera. Implementamos medidas de seguridad para proteger tus datos frente a accesos no autorizados. Al utilizar nuestro sitio web, aceptas esta política de privacidad."
+  },
+  "terms": {
+    "title": "Términos y Condiciones",
+    "content": "Al acceder y utilizar el sitio web de Arepa Sales aceptas los siguientes términos y condiciones: 1) El contenido de este sitio es para tu uso personal y no comercial. 2) Todos los precios y promociones están sujetos a cambios sin previo aviso. 3) Nos reservamos el derecho de cancelar pedidos en caso de errores en la información publicada o disponibilidad de productos. 4) El uso indebido del sitio puede dar lugar a la restricción de acceso. 5) Cualquier conflicto será resuelto conforme a la legislación vigente en nuestro país. Al continuar navegando en nuestra página, aceptas plenamente estos términos y condiciones."
   }
+
 }

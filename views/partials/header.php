@@ -18,6 +18,7 @@ if (file_exists($langFile)) {
 <head>
   <meta charset="UTF-8">
   <title><?= htmlspecialchars($lang['site']['name'] ?? 'Arepa Sales') ?></title>
+  <link rel="icon" href="/areApp/public/img/LogoArepas.ico" sizes="any">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Bootstrap Icons -->

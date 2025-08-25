@@ -60,6 +60,7 @@ ob_start();
                   <input type="hidden" name="product_id" value="<?= htmlspecialchars($id) ?>">
                   <input type="hidden" name="name" value="<?= htmlspecialchars($name) ?>">
                   <input type="hidden" name="price" value="<?= htmlspecialchars($price) ?>">
+                  <input type="hidden" name="image" value="<?= htmlspecialchars($image) ?>">
                   <button
                     type="submit"
                     class="btn btn-primary"

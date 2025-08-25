@@ -51,40 +51,28 @@ ob_start();
   <div class="row">
     <div class="col-md-4 mb-4">
       <div class="card h-100 shadow-sm">
-        <img src="https://picsum.photos/seed/queso/400/300" class="card-img-top"
+        <img src="/areApp/public/img/arepa_queso.jpg" class="card-img-top"
              alt="Arepa de Queso">
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">Arepa de Queso</h5>
-          <p class="card-text">$3.50</p>
-          <a href="index.php?url=product/view/1" class="btn btn-primary mt-auto">
-            <?= htmlspecialchars($lang['home']['button_view'] ?? 'Ver Detalle') ?>
-          </a>
         </div>
       </div>
     </div>
     <div class="col-md-4 mb-4">
       <div class="card h-100 shadow-sm">
-        <img src="https://picsum.photos/seed/reina/400/300" class="card-img-top"
+        <img src="/areApp/public/img/reina_pepiada.jpg" class="card-img-top"
              alt="Arepa Reina Pepiada">
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">Arepa Reina Pepiada</h5>
-          <p class="card-text">$6.00</p>
-          <a href="index.php?url=product/view/2" class="btn btn-primary mt-auto">
-            <?= htmlspecialchars($lang['home']['button_view'] ?? 'Ver Detalle') ?>
-          </a>
         </div>
       </div>
     </div>
     <div class="col-md-4 mb-4">
       <div class="card h-100 shadow-sm">
-        <img src="https://picsum.photos/seed/pelua/400/300" class="card-img-top"
+        <img src="/areApp/public/img/arepa_pelua.jpg" class="card-img-top"
              alt="Arepa Pelúa">
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">Arepa Pelúa</h5>
-          <p class="card-text">$6.50</p>
-          <a href="index.php?url=product/view/3" class="btn btn-primary mt-auto">
-            <?= htmlspecialchars($lang['home']['button_view'] ?? 'Ver Detalle') ?>
-          </a>
         </div>
       </div>
     </div>
